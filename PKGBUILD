@@ -2,14 +2,13 @@
 pkgname=VC4C
 pkgver=0.4.0
 pkgrel=5
-pkgdesc="Compiler for the VC4CL OpenCL implementation"
+pkgdesc="Compiler for the VC4CL OpenCL implementation (raspberi-pi)."
 
 provides=('VC4C')
 arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
 url="git://github.com/doe300/VC4C"
 
 license=('MIT')
-conflicts=('VC4C')
 depends=(llvm clang VC4CLStdLib)
 makedepends=(cmake)
 source=(git://github.com/doe300/VC4C)        
